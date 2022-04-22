@@ -7,7 +7,9 @@ A package for hotelbeds.
 Make sure that Go is installed on your computer.
 Type the following command in your terminal:
 
-    go get github.com/misteraladin/go-hotelbeds
+```bash
+go get github.com/misteraladin/go-hotelbeds
+```
 
 After it the package is ready to use.
 
@@ -15,14 +17,14 @@ After it the package is ready to use.
 
 Add following line in your `*.go` file:
 
-    ```go
-    import "github.com/misteraladin/go-hotelbeds"
-    ```
+```go
+import "github.com/misteraladin/go-hotelbeds"
+```
 
 If you are unhappy to use long `go-hotelbeds`, you can do something like this:
 
-    ```go
-    import (
-        hotelbeds "github.com/misteraladin/go-hotelbeds"
-    )
-    ```
+```go
+import (
+    hotelbeds "github.com/misteraladin/go-hotelbeds"
+)
+```
